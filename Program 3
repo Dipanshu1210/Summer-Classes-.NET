@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             string line;
+             Console.WriteLine("Enter the one or lines of text(press CTRL+Z and press enterto exit):");
+
+             do
+             {
+                 line = Console.ReadLine();
+
+                 if (line != null)
+                     Console.WriteLine("This is the Text enterned by you   -  " + line);
+             }
+             while (line != null);
+        }
+    }
+ }
