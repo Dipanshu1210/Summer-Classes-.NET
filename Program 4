@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace IDemo
+{
+    public class Myclass1
+    {
+        public const double PIX = 2.1415;
+    }
+    public class Myclass
+    {
+        public readonly double PI;
+        public Myclass()
+        {
+            PI = 3.14159;
+        }
+    }
+    public class Car
+    {
+        public static int NumberOfWheels = 4;
+    }
+    public class Car1 : Myclass1
+    {
+        public static void main()
+        {
+            int i = Car.NumberOfWheels;
+            Console.WriteLine(i);
+
+            Myclass mc = new Myclass();
+
+            Console.WriteLine(mc.PI);
+            Console.WriteLine(PIX);
+            Console.Read();
+        }
+    }
+}
