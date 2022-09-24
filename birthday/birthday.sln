@@ -23,6 +23,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "birthday", "..\..\WebSites\
 	EndProjectSection
 EndProject
 Global
+
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
 	EndGlobalSection
